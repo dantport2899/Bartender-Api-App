@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/byingredient_graph"
+    app:startDestination="@id/searchByIngredientFrag">
+
+    <fragment
+        android:id="@+id/searchByIngredientFrag"
+        android:name="com.facu.bartender.ui.SearchByIngredientFrag"
+        android:label="Search By Id">
+        <action
+            android:id="@+id/action_searchByIngredientFrag_to_descripcionByIngredientFrag"
+            app:destination="@id/descripcionByIngredientFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/descripcionByIngredientFrag"
+        android:name="com.facu.bartender.ui.DescripcionByIngredientFrag"
+        android:label="Cocktail Description"
+        tools:layout="@layout/fragment_descripcion_by_ingredient" />
+</navigation>

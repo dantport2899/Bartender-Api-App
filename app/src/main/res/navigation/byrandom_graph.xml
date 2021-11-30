@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/byrandom_graph"
+    app:startDestination="@id/searchByRandomFrag">
+
+    <fragment
+        android:id="@+id/searchByRandomFrag"
+        android:name="com.facu.bartender.ui.SearchByRandomFrag"
+        android:label="Random Cocktail"
+        tools:layout="@layout/fragment_search_by_random">
+        <action
+            android:id="@+id/action_searchByRandomFrag_to_descripcionByRandom"
+            app:destination="@id/descripcionByRandom" />
+    </fragment>
+    <fragment
+        android:id="@+id/descripcionByRandom"
+        android:name="com.facu.bartender.ui.DescripcionByRandom"
+        android:label="Random Cocktail Description"
+        tools:layout="@layout/fragment_descripcion_by_random" />
+</navigation>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Bartender</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="random_cocktail">Random Cocktail</string>
+    <string name="search_by_name">Search By Name</string>
+    <string name="search_by_ingredient">Search By Id</string>
+    <string name="order">Order</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="imagen_de_un_bartender">imagen de un bartender</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Ventana de registro variables -->
+    <string name="Register_title">Register</string>
+    <string name="btn_back">Back</string>
+    <string name="name">Name</string>
+
+    <!-- Ventana de usuariodatos variables -->
+    <string name="mod_user">Edit Profile</string>
+    <string name="btn_cerrarsesion">Log Out</string>
+    <string name="btn_modficar">Edit Profile</string>
+    <string name="btn_modficarpass">Restore Pass</string>
+
+    <!-- Ventana de recuperar contrasena -->
+    <string name="btn_restore">Restore Password</string>
+    <string name="coctel_price">Coctel Price $</string>
+    <string name="add_to_menu">Add to Menu</string>
+    <string name="ingredientes">Ingredients</string>
+    <string name="id">ID:</string>
+    <string name="space">---</string>
+
+    <!-- Ventana de orden -->
+    <string name="MostrarBebidas">Add Drink</string>
+    <string name="ActulizarBebida">Update Drink</string>
+    <string name="PasarApagar">Pay Bill</string>
+    <string name="preciosinpropina">Total: $</string>
+
+    <!-- Ventana de propina -->
+    <string name="sinpropina">Bill without tip</string>
+    <string name="agregarpropina">Add tip?</string>
+    <string name="porcentaje">tip percentage</string>
+    <string name="btnagregarpropina">Add tip</string>
+    <string name="valordepropina">Tip value: $</string>
+    <string name="preciofinal">Total bill: $</string>
+
+    <!-- Ventana de lista de bebidas -->
+    <string name="drinkname">Name: </string>
+    <string name="drinkprice">$</string>
+    <string name="btnadd">Add to bill</string>
+    <string name="btndelete">Delete from Menu</string>
+
+    <!-- Ventana de lista de cuentas -->
+    <string name="btndel">Delete</string>
+    <string name="toalpay">Total pay: $</string>
+    <string name="namedrink">Name: </string>
+    <string name="pricedrink"> $</string>
+    <string name="HISTORYTITLE"> Bills History </string>
+</resources>
